@@ -1,6 +1,6 @@
 <?php
 
-vendor('phpVimeo');
+App::import('Vendor', 'phpVimeo');
 
 class VimeoComponent extends Object {
 	var $vimeo;
